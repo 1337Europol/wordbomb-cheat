@@ -96,6 +96,12 @@ Détails : [SECURITY.md](SECURITY.md)
 
 ---
 
+## Support / Aide
+
+Besoin d'aide ? Ajoute-moi sur Discord : **httpmethod**
+
+---
+
 ## Licence
 
 MIT
