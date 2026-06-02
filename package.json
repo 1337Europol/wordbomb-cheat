@@ -1,0 +1,34 @@
+{
+    "name": "wordbomb",
+    "version": "1.0.0",
+    "description": "Lexique français pour Word Bomb — recherche par syllabe avec tri et filtres",
+    "main": "src/server/index.js",
+    "scripts": {
+        "build-dict": "node src/server/scripts/build-dict/index.js",
+        "start": "node src/server/index.js",
+        "app": "electron main.js"
+    },
+    "keywords": [
+        "word-bomb",
+        "french",
+        "dictionary",
+        "lexique",
+        "jeu"
+    ],
+    "author": "",
+    "license": "MIT",
+    "type": "commonjs",
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "compression": "^1.8.1",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "express-rate-limit": "^7.5.0",
+        "helmet": "^8.1.0"
+    },
+    "devDependencies": {
+        "electron": "^41.2.0"
+    }
+}

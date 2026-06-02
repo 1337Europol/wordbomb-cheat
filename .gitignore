@@ -1,0 +1,18 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+src/data/contact-log.json
+
+# Electron
+dist/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Dépôts git imbriqués accidentels
+**/.git/

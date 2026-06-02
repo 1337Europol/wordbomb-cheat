@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Word Bomb FR</title>
+    <meta name="description" content="Contacte l'équipe du lexique Word Bomb FR." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0a0a'/><text x='16' y='22' text-anchor='middle' font-size='16' fill='%23c8f0a0'>W</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">
+            lexique <span class="sep">/</span> word bomb
+        </a>
+
+        <div class="nav-actions">
+            <a href="support.html" class="nav-btn">Support</a>
+            <a href="contact.html" class="nav-btn nav-btn--active" aria-current="page">Contact</a>
+        </div>
+    </nav>
+
+    <main class="static-page">
+
+        <header class="static-header">
+            <p class="static-eyebrow">nous écrire</p>
+            <h1>Contact</h1>
+            <p class="static-lead">Une question, un bug ou une idée ? Envoie-nous un message.</p>
+        </header>
+
+        <div class="contact-layout">
+
+            <section class="static-card contact-info">
+                <h2>Autres moyens</h2>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <span class="contact-method-label">GitHub</span>
+                        <p>Ouvre une issue pour signaler un bug ou proposer une amélioration.</p>
+                        <a href="#" data-github-issues class="static-card-link">Ouvrir une issue →</a>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-method-label">Contributions</span>
+                        <p>Les pull requests sont les bienvenues sur le dépôt du projet.</p>
+                        <a href="#" data-github-link class="static-card-link">Voir le dépôt →</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="static-card contact-form-card">
+                <h2>Envoyer un message</h2>
+                <form class="contact-form" method="post" novalidate>
+                    <div class="form-honeypot" aria-hidden="true">
+                        <label for="website">Ne pas remplir</label>
+                        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+                    </div>
+                    <div class="form-field">
+                        <label for="name">Nom</label>
+                        <input id="name" name="name" type="text" autocomplete="name" placeholder="ton pseudo" minlength="2" maxlength="80" required />
+                    </div>
+                    <div class="form-field">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" autocomplete="email" placeholder="toi@exemple.com" maxlength="120" required />
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">Sujet</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">choisir…</option>
+                            <option value="bug">Signaler un bug</option>
+                            <option value="word">Mot manquant</option>
+                            <option value="idea">Suggestion</option>
+                            <option value="other">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="décris ta demande…" minlength="10" maxlength="2000" required></textarea>
+                    </div>
+                    <button class="form-submit" type="submit">Envoyer</button>
+                    <p id="formFeedback" class="form-feedback" hidden></p>
+                </form>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <span>word bomb helper · open source</span>
+    </footer>
+
+    <script type="module" src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexique — Word Bomb FR</title>
+    <meta name="description" content="Cherche une syllabe et trouve tous les mots français qui la contiennent — lexique complet avec mots composés." />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0a0a'/><text x='16' y='22' text-anchor='middle' font-size='16' fill='%23c8f0a0'>W</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">
+            lexique <span class="sep">/</span> word bomb
+        </a>
+
+        <div class="nav-actions">
+            <a href="support.html" class="nav-btn">Support</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <header class="page-header">
+            <h1>cherche ta <em>syllabe</em>.</h1>
+            <p>entre une combinaison de lettres</p>
+        </header>
+
+        <section class="search-section" aria-label="Recherche de mots">
+
+            <div class="search-wrap">
+                <div class="search-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </div>
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder=""
+                    autocomplete="off"
+                    spellcheck="false"
+                    autofocus
+                    maxlength="32"
+                    aria-label="Rechercher une syllabe ou combinaison de lettres"
+                />
+                <button class="search-clear" id="clearBtn" type="button" aria-label="Effacer la recherche">✕</button>
+            </div>
+
+            <div class="filter-row" role="toolbar" aria-label="Tri et filtres">
+                <span class="filter-label">trier</span>
+                <button class="filter-chip active" type="button" data-sort="length">longueur</button>
+                <button class="filter-chip" type="button" data-sort="alpha">a → z</button>
+                <span class="filter-label filter-label--spaced">filtrer</span>
+                <button class="filter-chip" type="button" data-filter="plural">pluriels</button>
+                <button class="filter-chip" type="button" data-filter="long">8+ lettres</button>
+                <button class="filter-chip" type="button" data-filter="verbs">verbes</button>
+                <button class="filter-chip" type="button" data-filter="hyphen">trait d'union</button>
+            </div>
+
+        </section>
+
+        <div class="stats-bar" id="statsBar" aria-live="polite"></div>
+        <div id="results" aria-live="polite"></div>
+
+    </main>
+
+    <footer>
+        <span>word bomb helper · open source</span>
+    </footer>
+
+    <div id="copyToast" class="copy-toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
