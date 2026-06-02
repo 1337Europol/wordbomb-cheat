@@ -102,6 +102,12 @@ Besoin d'aide ? Ajoute-moi sur Discord : **httpmethod**
 
 ---
 
+## Avertissement
+
+Ce projet est fourni à des fins éducatives et de divertissement uniquement. L'auteur n'encourage pas et ne cautionne pas toute utilisation visant à obtenir un avantage déloyal dans un jeu en ligne. Toute utilisation de cet outil est sous la seule et entière responsabilité de l'utilisateur. L'auteur ne pourra en aucun cas être tenu responsable des conséquences — sanctions, bannissements ou autres — découlant d'un usage contraire aux conditions d'utilisation de Word Bomb ou à la législation applicable.
+
+---
+
 ## Licence
 
 MIT
