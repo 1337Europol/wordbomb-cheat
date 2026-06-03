@@ -21,7 +21,7 @@ Avant de commencer, vérifie que tu as :
 Ouvre PowerShell dans le dossier du projet :
 
 ```powershell
-cd "c:\Users\deryo\Downloads\wordbomb-main\wordbomb-main\wordbomb"
+cd "c:\Users\ton nom frero\Downloads\wordbomb-main\wordbomb-main\wordbomb"
 ```
 
 ### 1.1 Tester que tout fonctionne
