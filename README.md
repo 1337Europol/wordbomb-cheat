@@ -98,7 +98,7 @@ Détails : [SECURITY.md](SECURITY.md)
 
 ## Support / Aide
 
-Besoin d'aide ? Ajoute-moi sur Discord : **httpmethod**
+Besoin d'aide, ajoute-moi sur Discord : **httpmethod**
 
 ---
 
