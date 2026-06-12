@@ -4,7 +4,7 @@ const RE_QUERY = /^[\p{L}'\-]*$/u;
 
 /**
  *
- * @param {string} raw
+ * @param {string}
  * @returns {string}
  */
 export function sanitizeQuery(raw) {
@@ -15,7 +15,7 @@ export function sanitizeQuery(raw) {
 }
 
 /**
- * @param {string} query
+ * @param {string}
  * @returns {boolean}
  */
 export function isQueryValid(query) {
