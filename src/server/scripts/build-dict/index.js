@@ -9,12 +9,12 @@ const { DICT_PATH, CURATED_PATH } = require('../../config');
 const REMOTE_SOURCES = [
     {
         label: 'an-array-of-french-words',
-        url: 'https://raw.githubusercontent.com/words/an-array-of-french-words/master/index.json',
+        url: 'https://raw.githubusercontent.com/words/an-array-of-french-words/master/index.json', // merci frw
         type: 'json',
     },
     {
         label: 'French-Wordlist',
-        url: 'https://raw.githubusercontent.com/Taknok/French-Wordlist/master/francais.txt',
+        url: 'https://raw.githubusercontent.com/Taknok/French-Wordlist/master/francais.txt', // merci frw
         type: 'text',
     },
 ];
