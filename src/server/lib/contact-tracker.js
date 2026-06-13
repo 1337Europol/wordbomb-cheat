@@ -24,7 +24,7 @@ function readLog() {
 }
 
 /**
- * @param {object[]} entries
+ * @param {object[]} entrees
  */
 function writeLog(entries) {
     const cutoff = Date.now() - CONTACT.LOG_RETENTION_MS;
@@ -44,9 +44,9 @@ function getClientIp(req) {
 }
 
 /**
- * @param {object[]} entries
- * @param {string} field
- * @param {string} value
+ * @param {object[]} entrees
+ * @param {string} champ
+ * @param {string} valeur
  * @returns {number}
  */
 function countInWindow(entries, field, value) {
