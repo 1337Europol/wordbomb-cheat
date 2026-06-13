@@ -1,7 +1,7 @@
 import { SELECTORS } from './constants.js';
 
 /**
- * @param {string} selector
+ * @param {string} selecteur hehe
  * @returns {HTMLElement}
  */
 function requireElement(selector) {
