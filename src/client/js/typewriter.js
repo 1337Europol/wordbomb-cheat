@@ -8,7 +8,7 @@ const TYPE_SPEED = {
 };
 
 /**
- * @param {HTMLInputElement} input
+ * @param {HTMLInputElement} pour l'input
  */
 export function startTypewriterPlaceholder(input) {
     let phraseIndex = 0;
