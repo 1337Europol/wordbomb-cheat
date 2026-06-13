@@ -3,7 +3,7 @@ import { escapeHtml, formatNumber, highlightMatch } from './utils.js';
 
 /**
  * @param {HTMLElement} container
- * @param {string} [hint]
+ * @param {string} inutile le hint
  */
 export function renderWelcome(container, hint) {
     const hintHtml = hint
@@ -61,7 +61,7 @@ export function renderEmptyResults(container, query) {
  * @param {HTMLElement} container
  * @param {number} total
  * @param {string} query
- * @param {number} shown
+ * @param {number} goster mi ?
  */
 export function renderStats(container, total, query, shown) {
     if (!total) {
@@ -84,7 +84,7 @@ export function renderStats(container, total, query, shown) {
  * @param {object} word
  * @param {number} rank
  * @param {string} query
- * @param {boolean} isLong
+ * @param {boolean} islong mu ?
  * @returns {string}
  */
 function renderWordCard(word, rank, query, isLong) {
@@ -163,7 +163,7 @@ export function renderWords(container, words, query) {
 }
 
 /**
- * @param {HTMLElement} card
+ * @param {HTMLElement} cart abi
  */
 export function flashCopied(card) {
     card.classList.add('flash-copy');
