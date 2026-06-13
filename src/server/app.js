@@ -34,7 +34,7 @@ function createApp() {
     app.use('/api', createContactRouter());
 
     app.use('/api', (_req, res) => {
-        res.status(404).json({ error: 'jtrouve pas route' });
+        res.status(404).json({ error: 'jtrouve pas route' }); // routing
     });
 
     app.use(errorHandler);
