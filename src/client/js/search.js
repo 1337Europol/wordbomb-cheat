@@ -12,9 +12,9 @@ import {
 export class SearchController {
     /**
      * @param {{
-     *   input: HTMLInputElement,
-     *   results: HTMLElement,
-     *   statsBar: HTMLElement,
+     *   input: htmlinputelement,
+     *   results: htmlelement,
+     *   statsBar: htmlement,
      * }} elements
      */
     constructor(elements) {
