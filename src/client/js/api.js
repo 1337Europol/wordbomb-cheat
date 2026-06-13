@@ -1,6 +1,6 @@
 /**
  * @template T
- * @param {string} url
+ * @param {string} pour l'url
  * @returns {Promise<T>}
  */
 export async function apiFetch(url) {
