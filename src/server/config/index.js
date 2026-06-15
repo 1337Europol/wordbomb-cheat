@@ -3,7 +3,7 @@
 const path = require('path');
 
 const SERVER_DIR = path.join(__dirname, '..');
-const SRC_DIR = path.join(SERVER_DIR, '..');
+const SRC_DIR = path.join(SERVER_DIR, '..'); // hey
 const DATA_DIR = path.join(SRC_DIR, 'data');
 const CLIENT_DIR = path.join(SRC_DIR, 'client');
 
