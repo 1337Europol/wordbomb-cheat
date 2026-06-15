@@ -21,7 +21,7 @@ module.exports = {
         DEFAULT_LIMIT: 300,
         MAX_LIMIT: 2000,
         LONG_WORD_MIN: 8,
-        MIN_QUERY_LENGTH: 2,
+        MIN_QUERY_LENGTH: 2, // hey
         MAX_QUERY_LENGTH: 32,
     },
     RATE_LIMIT: {
