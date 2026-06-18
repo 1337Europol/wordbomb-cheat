@@ -92,7 +92,7 @@ src/
 2. Mettre ton URL GitHub dans `site-config.js`
 3. HTTPS derrière un reverse proxy
 
-Détails : [SECURITY.md](SECURITY.md)
+Détails [SECURITY.md](SECURITY.md)
 
 ---
 
