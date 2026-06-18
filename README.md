@@ -15,7 +15,7 @@ npm start
 
 Ouvre [http://localhost:3000](http://localhost:3000)
 
-> Si `src/data/words.json` n'est pas présent : `npm run build-dict` puis `npm start`
+> Si `src/data/words.json` n'est pas présent `npm run build-dict` puis `npm start`
 
 **Application Electron (fenêtre flottante) :** `npm run app`
 
