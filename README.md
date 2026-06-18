@@ -1,10 +1,10 @@
 # Word Bomb FR — Lexique
 
-Outil de recherche de mots français pour le jeu **Word Bomb**. Entre une syllabe ou une combinaison de lettres, et retrouve tous les mots du dictionnaire qui la contiennent — triés par longueur.
+Outil de recherche de mots français pour le jeu **Word Bomb**. Entre une syllabe ou une combinaison de lettres, et retrouve tous les mots du dictionnaire qui la contiennent — triés par longueur
 
 ## Démarrage rapide (utiliser le projet)
 
-N'importe qui peut l'utiliser en local :
+N'importe qui peut l'utiliser en local
 
 ```bash
 git clone https://github.com/1337Europol/wordbomb.git
@@ -13,7 +13,7 @@ npm install
 npm start
 ```
 
-Ouvre [http://localhost:3000](http://localhost:3000).
+Ouvre [http://localhost:3000](http://localhost:3000)
 
 > Si `src/data/words.json` n'est pas présent : `npm run build-dict` puis `npm start`.
 
