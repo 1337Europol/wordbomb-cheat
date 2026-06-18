@@ -1,6 +1,6 @@
 # Word Bomb FR — Lexique
 
-Outil de recherche de mots français pour le jeu **Word Bomb**. Entre une syllabe ou une combinaison de lettres, et retrouve tous les mots du dictionnaire qui la contiennent — triés par longueur
+Outil de recherche de mots français pour le jeu **Word Bomb**. Entre une syllabe ou une combinaison de lettres, et retrouve tous les mots du dictionnaire qui la contiennent triés par longueur
 
 ## Démarrage rapide (utiliser le projet)
 
