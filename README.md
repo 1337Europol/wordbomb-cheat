@@ -77,7 +77,7 @@ src/
 
 ## Sécurité — prêt pour release ?
 
-**Oui** pour un projet open source de cette taille :
+**Oui** pour un projet open source de cette taille
 
 - Helmet (CSP, en-têtes sécurisés)
 - Rate limiting API + contact
