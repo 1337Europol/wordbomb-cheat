@@ -35,7 +35,7 @@ Ouvre [http://localhost:3000](http://localhost:3000)
 
 - Recherche instantanée avec debounce
 - Tri par longueur ou ordre alphabétique
-- Filtres : pluriels, verbes, mots longs (8+), trait d'union
+- Filtres : pluriels, verbes, mots longs (8+) trait d'union
 - Copie d'un mot au clic (ou Entrée / Espace)
 - Pages Support et Contact
 - Formulaire contact sécurisé (rate limit IP + identifiant navigateur)
